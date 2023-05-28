@@ -45,7 +45,7 @@ public class Hooks extends Base {
 
 
 	@Before
-	public void chooseRunningPlatform() throws IOException, InterruptedException {
+	public void chooseRunningPlatform() throws InterruptedException {
 
 		String runningPlatform = getRunningPlatformName();
 		String os = getOSname();
